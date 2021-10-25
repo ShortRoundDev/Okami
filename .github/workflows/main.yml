@@ -10,4 +10,4 @@ jobs:
         steps:
             - name: Run Step
               id: Run
-              uses: Dockerfile
+              uses: shortrounddev/Okami@master
