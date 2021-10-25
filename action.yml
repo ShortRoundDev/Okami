@@ -1,0 +1,8 @@
+﻿name: Ingest Data
+on: 
+    schedule:
+        - cron: 0 5 * * *
+
+runs:
+    using: 'docker'
+    image: 'Dockerfile'

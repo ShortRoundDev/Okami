@@ -1,0 +1,13 @@
+﻿on:
+    push:
+    schedule:
+        - cron: 0 5 * * *
+
+jobs:
+    ingest_data_job:
+        runs-on: ubuntu-latest
+        name: Ingests daily forecast data
+        steps:
+            - name: Run Step
+              id: Run
+              uses: shortrounddev/Okami
